@@ -13,19 +13,18 @@ main {
 }
 
 .gateway {
-  padding: 1rem 0;
+  padding-top: 0.5rem;
 }
 
 .main-heading {
   background-color: #b8f2fd;
-  padding-top: 4rem;
+  padding-top: 2rem;
   padding-bottom: 7rem;
-  font-weight: 700;
 }
 
 .middle-section {
   margin-top: -4rem;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .btn {
@@ -61,7 +60,7 @@ main {
 
 h1 {
   animation: 2s ease-out infinite;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 3rem;
 }
 
@@ -104,7 +103,7 @@ h1 {
         width: 2rem;
     }
     .main-heading {
-      padding-top: 6rem;
+      padding-top: 0rem;
     }
     .middle-section {
         display: inline-grid !important;
@@ -112,6 +111,7 @@ h1 {
     }
     .middle-section-div {
       margin-top: -4rem !important;
+      margin-bottom: 1rem !important;
     }
     
 }
@@ -131,7 +131,7 @@ h1 {
 
 @media (max-width: 572px) {
   .journey::after {
-    content: 'Start Now';
+    content: 'Join Now';
   }
 }
 
@@ -148,4 +148,28 @@ h1 {
   .nav-div {
     padding: 0.2 !important;
   }
+}
+
+.fixed-disclaimer {
+  background-color: #07A3F1;
+  /* Red background color */
+  color: #ffffff;
+  /* White text color */
+  text-align: center;
+  /* Center align the text */
+  /* font-size: 0.8rem; */
+  /* Make the disclaimer fixed */
+  /* bottom: 0; */
+  /* Position it at the bottom of the viewport */
+  /* left: 0; */
+  /* Position it at the left edge */
+  /* width: 100%; */
+  /* Take the full width of the viewport */
+  /* z-index: 999; */
+  /* Set a high z-index to ensure it appears above other content */
+  padding: 2rem 0;
+}
+
+.fixed-disclaimer p {
+  margin-bottom: 0 !important;
 }
